@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="option.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class = "container">
+    <header class="header-fixed">
+
+        <div class="header-limiter">
+    
+            <h1><a href="#">Carbon<span>Footprints</span></a></h1>
+    
+            <nav>
+                <a href="https://sphera.com/blog/the-carbon-footprint-of-the-internet/">Carbon Footprint</a>
+                <a href="https://www.doteasy.com/web-hosting-articles/what-is-green-web-hosting.cfm" class="selected">Green Hosting</a>
+            </nav>
+    
+        </div>
+    
+    </header>
+    
+    <h2>User History</h2>
+    <h3>*Sites with non green hosting options are marked red. The actual carbon footprint you leave also depends on that.</h3>
+    <ul id="page-list" class="responsive-table">
+    <li class="table-header">
+        <div class="col col-1">Website</div>
+        <div class="col col-2">Carbon Emission (in grams)</div>
+        <div class="col col-3">Green Hosting</div>
+    </li>
+    </ul>
+    <div id = "wrapper"><button id="clear-history" class="btn-gradient-2">Clear history</button></div>
+
+    <script src='carbon.js'></script>
+    <script src='page.service.js'></script>
+    <script src='index.js'></script>
+    <script src='options.js'></script>
+    </div>
+</body>
+</html>
